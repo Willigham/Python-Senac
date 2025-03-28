@@ -1,10 +1,13 @@
 #estrutura For = FAÇA ATÉ.
 
-#"b" será a quantidade de veres que ira repetir.
-b = 6
+#range ira contar de 0 ate 100 pulando em 2 em dois
+for variavel_do_for in range(0, 100, 2):
 
-#"range b" vai repetir a quantidade de veres da varial "b"
-for variavel_do_for in range(b):
-    print(a)
+    print(variavel_do_for)
 
-#o programa exibirá "a" com valor iniciar de 0 ate numero da varial "b"
+
+
+#contagem regressiva
+# for variavel_do_for in range(10, 1, -1):
+
+#     print(variavel_do_for)

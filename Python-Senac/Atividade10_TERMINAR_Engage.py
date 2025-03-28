@@ -23,6 +23,7 @@ while x > 0:
     x = int(input("[0] para Sair.\nValor do produto:"))
     #Digite "0" para "SAIR"
 media = produto / quantidade_produtos
+print("-----------------------------")
 print("Valor médio dos produtos:", media)
 print("O valor do maior:", maior)
 print("O valor do menor:", menor)
