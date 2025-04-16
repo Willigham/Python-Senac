@@ -20,8 +20,10 @@ def divisao(x, y):
 operacao = input("Qual operação você deseja fazer? ( '+'  '-'  '*'  '/' )")
 
 if operacao == "+" and operacao =="-" and operacao =="*" and operacao =="/":
+
     a = float(input("Informe o numero 1:"))
     b = float(input("Informe o numero 2:"))
+
     if operacao == "+":
         print("SOMAR:",somar(a, b))
 
